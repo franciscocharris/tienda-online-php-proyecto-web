@@ -8,11 +8,20 @@ $url = $_SERVER['REQUEST_URI'];
 <html lang="es">
 
 <head>
-
+<link rel="shortcut icon" href="https://i.imgur.com/fWWQ1g8.png" type="image/png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+   <!-- meta urls social networks -->
+   <meta property="og:url"   content="https://tienda-onlinef.herokuapp.com/" />
+    <meta property="og:title" content="tienda online para negocios" />
+    <meta property="og:description"  content="tienda online para negocios, sirve tanto para aquellos que hacen domicilios o no - hecho por francisco" />
+    <meta property="og:image" content="https://i.imgur.com/lCQYtlr.png" />
+    <!-- fin meta urls social networks -->
+    <!-- meta seo -->
+    <meta name="keywords" content="tienda-online, francisco, proyecto-php" />
+    <meta name="description"
+        content="tienda online para negocios, sirve tanto para aquellos que hacen domicilios o no - hecho por francisco desarrollador fullstack web" />
+    <!-- fin meta seo -->
 
   <title>Tienda Online</title>
   <!-- Bootstrap core CSS -->
