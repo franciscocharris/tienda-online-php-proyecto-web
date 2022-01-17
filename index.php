@@ -67,5 +67,5 @@ function show_error(){
 <?php
 require_once 'views/layout/footer.php';
 // para el hosting tienes que cambiar el config/parameters.php (base_url) y el .htaccess (ErrorDocument 404)
-
+// y el header el tema de la presentacion si coincide con la url
 //falta la edicion de las categoria y la eliminacion

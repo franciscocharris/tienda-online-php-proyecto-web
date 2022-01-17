@@ -26,7 +26,8 @@ $url = $_SERVER['REQUEST_URI'];
 <body>
   
     <!-- //si la funcion existe muestralo. y no lo muestra osea que no lo esta detectando, hay que soclucionarlo -->
-   <?php if('/udemy/2/tienda/' === $url): ?>
+   <?php if('/' === $url): ?>
+   <!-- <?php // if('/udemy/2/tienda/' === $url): ?> -->
      <div class="presentacion">
         <div class="container contenedor-header">
           <div class="redes-sociales">
